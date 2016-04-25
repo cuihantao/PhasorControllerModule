@@ -1,0 +1,67 @@
+cfg1 = aa21 or cfg2 = aa31
+id
+fracsec_b
+timebase
+num_pmu
+station name
+id code
+format?
+phnmr
+annmr
+dgnmr
+
+chnam ph1
+chnam ph2 ( if applicable)
+.
+.
+.
+chnam ph(n) ( if applicable)
+chnam an1
+chnam an2
+.
+.
+.
+chnam ann(n)
+chnam dig1.0 ><
+chnam dig1.1
+.
+.
+.
+chnam dig1.15 ><
+chnam dig2.0 <>
+chnam dig2.1
+.
+.
+.
+chnam dig2.15 <>
+.
+.
+.
+chnam dig(n).0 ><
+chnam dig(n).1
+.
+.
+.
+chnam dig(n).15 ><
+
+phunit1
+.
+.
+.
+phunit(n)
+anunit1
+.
+.
+.
+anunit(n)
+dugunit1
+.
+.
+.
+digunit(n)
+frequency 1 (50hz) or 0 (60)
+
+change count
+
+data rate
+

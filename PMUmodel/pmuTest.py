@@ -59,7 +59,7 @@ def send_data():
     
 def send(msg):
     #send trhough UDP
-    a = 'todo'
+    pass
 
 ####
 # End Network
@@ -71,7 +71,7 @@ def send(msg):
     
 def getData():
     # get next datum to send
-    a = 'todo'
+    pass
 
 ####
 # End Synchronization
@@ -89,7 +89,20 @@ def get_CRC(msg):
 #def read_config(config_file):
     #read in file
     
+def createHDR():
+    pass
 
+def createCFG1():
+    with open(cfg_config,'r') as cfg:
+        for line in ins:
+    
 ####
 # End Protocol helpers
 ####
+
+class PMU:
+    'class to hold pmu info'
+    def __init__(self):
+        self.version=1
+        self.id_code=0
+        self.
